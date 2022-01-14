@@ -10,6 +10,8 @@ body{
     font-weight: 500;     
 }
 
+
+
 .container{
     background: #FFFFFF;
     width: 870px;
@@ -36,51 +38,44 @@ hr{
 
 header{
     background: #562EFF;
-    padding: 0;
-    width: 100%;
-}
-
-.menubar{
-    width: 871px;
-}
-
-.menubar-action{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
+.navbar-action{
+    display: flex;
+    justify-content: space-between;
+    width: 870px;
+    margin: 0;
+    padding: 0;
+}
 
+.navbar-action img{
+    width: 200px;
+    margin: 0 0 0 -45px;
+}
 
-
-.one li{
+.navbar ul li{
     display: inline-block;
+    padding: 20px 20px;
     list-style-type: none;
 }
 
-
-
-.two li {
-    display: inline-block;
-    list-style-type: none;
-    text-align: center;
-}
-
-.two li a{
+.navbar ul li a {
     text-decoration: none;
-    color: #fff;
-    padding: 15px 15px;
     font-size: 16px;
     font-weight: 300;
+    padding: 0px 20px;
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+.navbar ul li a:hover{
+    color: cornsilk;
 }
 
 
-
-.one >ul li img{
-    width: 60%;
-    
-}
 
 
 
