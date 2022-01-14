@@ -3,9 +3,11 @@
 /* comment styles */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
     background: #F3F1FF;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 500;     
 }
 
 .container{
@@ -27,6 +29,63 @@ hr{
     border: 1px solid #D1D1D1;
     margin-bottom: 27px;
 }
+
+
+
+/* header */
+
+header{
+    background: #562EFF;
+    padding: 0;
+    width: 100%;
+}
+
+.menubar{
+    width: 871px;
+}
+
+.menubar-action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+.one li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+
+
+.two li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: center;
+}
+
+.two li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 15px 15px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+
+.one >ul li img{
+    width: 60%;
+    
+}
+
+
+
+
+
 
 /* Top Player styles */
 
